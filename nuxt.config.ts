@@ -1,5 +1,6 @@
 export default defineNuxtConfig({
   modules:['@vite-pwa/nuxt'],
+  css: ['~/assets/css/custom-styles.css'],
   pwa:{
     manifest:{
       name:"Nuxt3 PWA",
