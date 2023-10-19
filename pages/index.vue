@@ -37,7 +37,7 @@ const baseUrl = import.meta.env.VITE_BASE_URL;
 const isOnline = ref(navigator.onLine);
 const onlineStatus = computed(() => (isOnline.value ? 'Online' : 'Offline')); //todo what nuxt provide to identify browser status
 
-const displayNoteButton = ref(false);
+  const displayNoteButton = ref(false);
 const displayImageButton = ref(false);
 const showNoteModal = ref(false);
 const showImageModal = ref(false);
