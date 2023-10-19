@@ -15,5 +15,10 @@
     "nuxt": "^3.7.4",
     "vue": "^3.3.4",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.5.0",
+    "image-compressor.js": "^1.1.4",
+    "localforage": "^1.10.0"
   }
 }
